@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lato:wght@400;700&family=Smythe&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Restaurant Order App</title>
+</head>
+
+<body>
+    <div id="content-container">
+        <div id="feature" class="feature">
+            <header>
+                <h1> Molly's Diner</h1>
+                <p>The best burgers and pizzas in town.</p>
+            </header>
+        </div>
+
+        <main id="main">
+            <div id="main-menu">
+            </div>
+            <div class="order-section" id="order-section">
+                <div id="order-cart" class="order-cart">
+                    <h1>Your Order</h1>
+                    <div id="order-list" class="cart-items">
+
+                    </div>
+                    <div id="total" class="total">
+                        <h2>Total Price:</h2>
+                        <h2 id="bill-price">0</h2>
+                    </div>
+                </div>
+                <button id="complete-order-btn">Complete Order</button>
+            </div>
+        </main>
+    </div>
+    <div class="hidden" id="modal">
+        <h1>Enter Card Details</h1>
+        <form action="#">
+            <input type="text" name="name" placeholder="Name" id="name" required />
+            <input type="text" placeholder="Card Number" id="cardnumber" required />
+            <input type="text" name="cvv" id="cvv" placeholder="cvv" required />
+            <input type="submit" value="Place Order" id="place-order" />
+        </form>
+    </div>
+    <script src=" index.js" type="module">
+    </script>
+</body>
+
+</html>
