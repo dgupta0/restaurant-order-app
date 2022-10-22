@@ -6,6 +6,6 @@ https://www.figma.com/file/Hdgwo69Dym9vVsxbuPbl0h/Mobile-Restaurant-Menu?node-id
 
 ## Functionalities including-
 
--Add Items/multiple items of same menu item <br />
+-Add Items/multiple items <br />
 -Remove Items <br />
 -Star Rating function <br />
